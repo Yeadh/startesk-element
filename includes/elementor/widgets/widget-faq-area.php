@@ -130,7 +130,7 @@ class startesk_Widget_FAQ extends Widget_Base {
                                           <?php the_excerpt() ?>
                                       </div>
                                       <?php if ($faq_repeat_group): ?>
-                                      <div class="accordion" id="accordion<?php echo $key ?>">
+                                      <div class="accordion" id="accordion<?php echo get_the_ID() ?>">
                                         <?php foreach ($faq_repeat_group as $key => $faq_item): ?>
                                           <div class="card">
                                               <div class="card-header" id="heading<?php echo $key.get_the_ID(); ?>">
