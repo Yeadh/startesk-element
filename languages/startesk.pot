@@ -1,0 +1,1153 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Startesk Element\n"
+"POT-Creation-Date: 2020-04-07 12:57+0600\n"
+"PO-Revision-Date: 2020-04-07 12:57+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: makplus-element.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/author-widget.php:14
+msgid "startesk author here"
+msgstr ""
+
+#: includes/author-widget.php:18
+msgid "Author : startesk"
+msgstr ""
+
+#: includes/author-widget.php:38
+msgid "About Author"
+msgstr ""
+
+#: includes/author-widget.php:40
+msgid "Markplus CEO"
+msgstr ""
+
+#: includes/author-widget.php:41
+msgid "A design is plan or specification for the construction"
+msgstr ""
+
+#: includes/author-widget.php:122 includes/recent-post.php:110
+msgid "Title:"
+msgstr ""
+
+#: includes/author-widget.php:126
+msgid "Profile image:"
+msgstr ""
+
+#: includes/author-widget.php:132
+msgid "Designation:"
+msgstr ""
+
+#: includes/author-widget.php:136
+msgid "Short description:"
+msgstr ""
+
+#: includes/author-widget.php:140
+msgid "Facebook:"
+msgstr ""
+
+#: includes/author-widget.php:144
+msgid "Twitter:"
+msgstr ""
+
+#: includes/author-widget.php:148
+msgid "Pinterest:"
+msgstr ""
+
+#: includes/author-widget.php:152
+msgid "Linkedin:"
+msgstr ""
+
+#: includes/custom-posts.php:16
+msgctxt "post type general name"
+msgid "Portfolio"
+msgstr ""
+
+#: includes/custom-posts.php:17
+msgctxt "post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: includes/custom-posts.php:18
+msgctxt "admin menu"
+msgid "Portfolio"
+msgstr ""
+
+#: includes/custom-posts.php:19
+msgctxt "add new on admin bar"
+msgid "Portfolio"
+msgstr ""
+
+#: includes/custom-posts.php:20
+msgctxt "Portfolio"
+msgid "Add New"
+msgstr ""
+
+#: includes/custom-posts.php:21
+msgid "Add New Portfolio"
+msgstr ""
+
+#: includes/custom-posts.php:22
+msgid "New Portfolio"
+msgstr ""
+
+#: includes/custom-posts.php:23
+msgid "Edit Portfolio"
+msgstr ""
+
+#: includes/custom-posts.php:24
+msgid "View Portfolio"
+msgstr ""
+
+#: includes/custom-posts.php:25
+msgid "All Portfolio"
+msgstr ""
+
+#: includes/custom-posts.php:26
+msgid "Search Portfolio"
+msgstr ""
+
+#: includes/custom-posts.php:27
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: includes/custom-posts.php:28
+msgid "No Portfolio found."
+msgstr ""
+
+#: includes/custom-posts.php:29
+msgid "No Portfolio found in Trash."
+msgstr ""
+
+#: includes/custom-posts.php:32
+msgid "Description."
+msgstr ""
+
+#: includes/custom-posts.php:49
+msgid "Portfolio Category"
+msgstr ""
+
+#: includes/custom-posts.php:50
+msgid "Add New Category"
+msgstr ""
+
+#: includes/custom-posts.php:57 includes/custom-posts.php:63
+msgid "FAQ"
+msgstr ""
+
+#: includes/custom-posts.php:58
+msgid "Post Type Description"
+msgstr ""
+
+#: includes/custom-posts.php:60
+msgctxt "Post Type General Name"
+msgid "FAQs"
+msgstr ""
+
+#: includes/custom-posts.php:61
+msgctxt "Post Type Singular Name"
+msgid "FAQ"
+msgstr ""
+
+#: includes/custom-posts.php:62
+msgid "FAQs"
+msgstr ""
+
+#: includes/custom-posts.php:64
+msgid "Item Archives"
+msgstr ""
+
+#: includes/custom-posts.php:65
+msgid "Item Attributes"
+msgstr ""
+
+#: includes/custom-posts.php:66
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/custom-posts.php:67
+msgid "All Items"
+msgstr ""
+
+#: includes/custom-posts.php:68
+msgid "Add New Item"
+msgstr ""
+
+#: includes/custom-posts.php:69
+msgid "Add New"
+msgstr ""
+
+#: includes/custom-posts.php:70
+msgid "New Item"
+msgstr ""
+
+#: includes/custom-posts.php:71
+msgid "Edit Item"
+msgstr ""
+
+#: includes/custom-posts.php:72
+msgid "Update Item"
+msgstr ""
+
+#: includes/custom-posts.php:73
+msgid "View Item"
+msgstr ""
+
+#: includes/custom-posts.php:74
+msgid "View Items"
+msgstr ""
+
+#: includes/custom-posts.php:75
+msgid "Search Item"
+msgstr ""
+
+#: includes/custom-posts.php:76
+msgid "Not found"
+msgstr ""
+
+#: includes/custom-posts.php:77
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/custom-posts.php:78
+msgid "Featured Image"
+msgstr ""
+
+#: includes/custom-posts.php:79
+msgid "Set featured image"
+msgstr ""
+
+#: includes/custom-posts.php:80
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/custom-posts.php:81
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/custom-posts.php:82
+msgid "Insert into item"
+msgstr ""
+
+#: includes/custom-posts.php:83
+msgid "Uploaded to this item"
+msgstr ""
+
+#: includes/custom-posts.php:84
+msgid "Items list"
+msgstr ""
+
+#: includes/custom-posts.php:85
+msgid "Items list navigation"
+msgstr ""
+
+#: includes/custom-posts.php:86
+msgid "Filter items list"
+msgstr ""
+
+#: includes/elementor/elementor.php:20
+msgid "startesk Elements"
+msgstr ""
+
+#: includes/elementor/widgets/widget-accordion.php:14
+#: includes/elementor/widgets/widget-accordion.php:30
+msgid "Accordion"
+msgstr ""
+
+#: includes/elementor/widgets/widget-accordion.php:38
+msgid "Style"
+msgstr ""
+
+#: includes/elementor/widgets/widget-accordion.php:42
+#: includes/elementor/widgets/widget-category-area.php:43
+#: includes/elementor/widgets/widget-products.php:40
+#: includes/elementor/widgets/widget-service-area.php:60
+#: includes/elementor/widgets/widget-testimonials.php:42
+msgid "Style 1"
+msgstr ""
+
+#: includes/elementor/widgets/widget-accordion.php:43
+#: includes/elementor/widgets/widget-category-area.php:44
+#: includes/elementor/widgets/widget-products.php:41
+#: includes/elementor/widgets/widget-service-area.php:61
+#: includes/elementor/widgets/widget-testimonials.php:43
+msgid "Style 2"
+msgstr ""
+
+#: includes/elementor/widgets/widget-accordion.php:53
+#: includes/elementor/widgets/widget-banner.php:62
+#: includes/elementor/widgets/widget-category-area.php:104
+#: includes/elementor/widgets/widget-choose-area.php:58
+#: includes/elementor/widgets/widget-contact.php:48
+#: includes/elementor/widgets/widget-counter.php:56
+#: includes/elementor/widgets/widget-newsletter.php:37
+#: includes/elementor/widgets/widget-rating-area.php:38
+#: includes/elementor/widgets/widget-service-area.php:80
+#: includes/elementor/widgets/widget-testimonials.php:73
+#: includes/elementor/widgets/widget-testimonials.php:86
+#: includes/elementor/widgets/widget-testimonials.php:174
+#: includes/elementor/widgets/widget-title.php:14
+#: includes/elementor/widgets/widget-title.php:30
+#: includes/elementor/widgets/widget-title.php:40
+#: includes/elementor/widgets/widget-video.php:48
+msgid "Title"
+msgstr ""
+
+#: includes/elementor/widgets/widget-accordion.php:59
+msgid "Text"
+msgstr ""
+
+#: includes/elementor/widgets/widget-accordion.php:67
+msgid "Accordion list"
+msgstr ""
+
+#: includes/elementor/widgets/widget-accordion.php:72
+msgid "Lorem ipsum dummy text used here?"
+msgstr ""
+
+#: includes/elementor/widgets/widget-accordion.php:73
+#: includes/elementor/widgets/widget-accordion.php:77
+#: includes/elementor/widgets/widget-accordion.php:81
+msgid ""
+"Lorem ipsum dolor sit amet, vix an natum labitur eleifd, mel am laoreet "
+"menandri. Ei justo complectitur duo. Ei mundi solet utos soletu possit quo. "
+"Sea cu justo laudem."
+msgstr ""
+
+#: includes/elementor/widgets/widget-accordion.php:76
+msgid "Why i should buy this Theme?"
+msgstr ""
+
+#: includes/elementor/widgets/widget-accordion.php:80
+msgid "Can i change any elements easilly?"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:14
+msgid "Banner"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:30
+msgid "Banner 1"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:41
+#: includes/elementor/widgets/widget-partner.php:41
+#: includes/elementor/widgets/widget-testimonials.php:95
+msgid "Choose Photo"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:52
+#: includes/elementor/widgets/widget-title.php:49
+#: includes/elementor/widgets/widget-video.php:39
+msgid "Sub Title"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:54
+msgid "logistics cargo service"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:64
+#: includes/elementor/widgets/widget-category-area.php:106
+msgid "Delivery Express"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:72
+#: includes/elementor/widgets/widget-category-area.php:124
+#: includes/elementor/widgets/widget-choose-area.php:47
+#: includes/elementor/widgets/widget-choose-area.php:78
+#: includes/elementor/widgets/widget-faq-area.php:47
+#: includes/elementor/widgets/widget-international-services.php:56
+#: includes/elementor/widgets/widget-newsletter.php:46
+#: includes/elementor/widgets/widget-pricing.php:47
+#: includes/elementor/widgets/widget-service-area.php:47
+#: includes/elementor/widgets/widget-service-area.php:100
+#: includes/elementor/widgets/widget-video.php:57
+msgid "Description"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:74
+msgid ""
+"Logistics is generally the detailed organization and implementation of a "
+"complex tiona general business sense, logistics is the management"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:81
+#: includes/elementor/widgets/widget-button.php:14
+#: includes/elementor/widgets/widget-button.php:30
+#: includes/elementor/widgets/widget-choose-area.php:87
+#: includes/elementor/widgets/widget-international-services.php:65
+#: includes/elementor/widgets/widget-service-area.php:109
+#: includes/elementor/widgets/widget-video.php:84
+msgid "Button"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:83
+#: includes/elementor/widgets/widget-international-services.php:67
+msgid "comparison"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:91
+#: includes/elementor/widgets/widget-category-area.php:114
+#: includes/elementor/widgets/widget-choose-area.php:96
+#: includes/elementor/widgets/widget-international-services.php:74
+#: includes/elementor/widgets/widget-service-area.php:118
+#: includes/elementor/widgets/widget-video.php:92
+msgid "URL"
+msgstr ""
+
+#: includes/elementor/widgets/widget-banner.php:101
+msgid "Banner Items"
+msgstr ""
+
+#: includes/elementor/widgets/widget-blog.php:13
+msgid "Latest Blog"
+msgstr ""
+
+#: includes/elementor/widgets/widget-blog.php:28
+#: includes/elementor/widgets/widget-productthumb.php:28
+msgid "Blog"
+msgstr ""
+
+#: includes/elementor/widgets/widget-blog.php:36
+#: includes/elementor/widgets/widget-products.php:64
+#: includes/elementor/widgets/widget-productthumb.php:49
+msgid "Order"
+msgstr ""
+
+#: includes/elementor/widgets/widget-blog.php:40
+#: includes/elementor/widgets/widget-products.php:68
+#: includes/elementor/widgets/widget-productthumb.php:53
+msgid "Ascending"
+msgstr ""
+
+#: includes/elementor/widgets/widget-blog.php:41
+#: includes/elementor/widgets/widget-products.php:69
+#: includes/elementor/widgets/widget-productthumb.php:54
+msgid "Descending"
+msgstr ""
+
+#: includes/elementor/widgets/widget-blog.php:82
+#: includes/elementor/widgets/widget-choose-area.php:89
+msgid "Read More"
+msgstr ""
+
+#: includes/elementor/widgets/widget-button.php:37
+msgid "Button Text"
+msgstr ""
+
+#: includes/elementor/widgets/widget-button.php:39
+msgid "Learn More"
+msgstr ""
+
+#: includes/elementor/widgets/widget-button.php:45
+msgid "Button URL"
+msgstr ""
+
+#: includes/elementor/widgets/widget-button.php:54
+msgid "Align"
+msgstr ""
+
+#: includes/elementor/widgets/widget-button.php:58
+#: includes/elementor/widgets/widget-title.php:66
+msgid "Center"
+msgstr ""
+
+#: includes/elementor/widgets/widget-button.php:59
+#: includes/elementor/widgets/widget-title.php:62
+msgid "Left"
+msgstr ""
+
+#: includes/elementor/widgets/widget-button.php:60
+#: includes/elementor/widgets/widget-title.php:70
+msgid "Right"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:14
+#: includes/elementor/widgets/widget-category-area.php:30
+msgid "Category Area"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:39
+#: includes/elementor/widgets/widget-service-area.php:56
+#: includes/elementor/widgets/widget-testimonials.php:38
+msgid "Columns"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:56
+#: includes/elementor/widgets/widget-choose-area.php:67
+#: includes/elementor/widgets/widget-contact.php:37
+#: includes/elementor/widgets/widget-counter.php:40
+msgid "Icon"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:60
+#: includes/elementor/widgets/widget-category-area.php:93
+msgid "Package"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:61
+msgid "Air freight"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:62
+msgid "Delivery truck"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:63
+#: includes/elementor/widgets/widget-category-area.php:66
+#: includes/elementor/widgets/widget-category-area.php:72
+msgid "Delivery"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:64
+msgid "Cruise"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:65
+msgid "Warehouse"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:67
+msgid "Around the world"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:68
+msgid "Review"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:69
+msgid "User"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:70
+msgid "Truck"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:71
+msgid "Maps and location"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:73
+msgid "Placeholder"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:74
+msgid "Like"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:75
+msgid "Shipping and Delivery"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:76
+msgid "Shipping"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:77
+msgid "Location"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:78
+msgid "All"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:79
+msgid "Delivery cart"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:80
+msgid "Commerce and shopping"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:81
+msgid "Magnifying glass"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:82
+msgid "Right arrow"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:83
+msgid "Credit card"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:84
+msgid "Sings"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:85
+msgid "Box"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:86
+msgid "Track"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:87
+msgid "Audit"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:88
+#: includes/elementor/widgets/widget-category-area.php:90
+msgid "Shield"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:89
+msgid "Ecology and environment"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:91
+msgid "Telegram"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:92
+msgid "Fast delivery"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:94
+msgid "Shopping cart"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:95
+msgid "Favorites"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:96
+msgid "Freight wagon"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:126
+msgid "Expres delivery an innovative service is logistics"
+msgstr ""
+
+#: includes/elementor/widgets/widget-category-area.php:134
+msgid "category Items"
+msgstr ""
+
+#: includes/elementor/widgets/widget-choose-area.php:14
+msgid "Choose Area"
+msgstr ""
+
+#: includes/elementor/widgets/widget-choose-area.php:30
+msgid "Choose"
+msgstr ""
+
+#: includes/elementor/widgets/widget-choose-area.php:38
+#: includes/elementor/widgets/widget-faq-area.php:38
+#: includes/elementor/widgets/widget-international-services.php:38
+#: includes/elementor/widgets/widget-pricing.php:38
+#: includes/elementor/widgets/widget-service-area.php:38
+msgid "title"
+msgstr ""
+
+#: includes/elementor/widgets/widget-choose-area.php:49
+msgid ""
+"Express delivery is an innovative Choose is effective logistics solution for "
+"the delivery of small cargo. This Choose is useful for companies various."
+msgstr ""
+
+#: includes/elementor/widgets/widget-choose-area.php:60
+#: includes/elementor/widgets/widget-service-area.php:82
+msgid "how we help you"
+msgstr ""
+
+#: includes/elementor/widgets/widget-choose-area.php:80
+#: includes/elementor/widgets/widget-choose-area.php:114
+msgid ""
+"Express delivery is an innovativ Choose is effective logistics solutio for "
+"delivery of small cargo Choose."
+msgstr ""
+
+#: includes/elementor/widgets/widget-choose-area.php:106
+msgid "Choose List"
+msgstr ""
+
+#: includes/elementor/widgets/widget-choose-area.php:111
+msgid "Inspiration Choose"
+msgstr ""
+
+#: includes/elementor/widgets/widget-choose-area.php:112
+#: includes/elementor/widgets/widget-service-area.php:134
+msgid "Get Insights Inspiration"
+msgstr ""
+
+#: includes/elementor/widgets/widget-choose-area.php:115
+#: includes/elementor/widgets/widget-service-area.php:111
+#: includes/elementor/widgets/widget-service-area.php:137
+msgid "LET US HELP"
+msgstr ""
+
+#: includes/elementor/widgets/widget-choose-area.php:116
+#: includes/elementor/widgets/widget-service-area.php:138
+msgid "#"
+msgstr ""
+
+#: includes/elementor/widgets/widget-contact.php:13
+#: includes/elementor/widgets/widget-contact.php:27
+msgid "Contact Info"
+msgstr ""
+
+#: includes/elementor/widgets/widget-contact.php:50
+#: includes/elementor/widgets/widget-contact.php:71
+msgid "Office Locations"
+msgstr ""
+
+#: includes/elementor/widgets/widget-contact.php:57
+msgid "Info"
+msgstr ""
+
+#: includes/elementor/widgets/widget-contact.php:59
+#: includes/elementor/widgets/widget-contact.php:72
+msgid "W8 Steet Capital 7TH Lan Roas New York Brooklyn, New York"
+msgstr ""
+
+#: includes/elementor/widgets/widget-contact.php:66
+msgid "Feature List"
+msgstr ""
+
+#: includes/elementor/widgets/widget-contact.php:75
+msgid "Contact Number"
+msgstr ""
+
+#: includes/elementor/widgets/widget-contact.php:76
+msgid "(+02) 124 326 4587 (+02) 124 326 4588"
+msgstr ""
+
+#: includes/elementor/widgets/widget-contact.php:79
+msgid "Mail Support"
+msgstr ""
+
+#: includes/elementor/widgets/widget-contact.php:80
+msgid "infocompany@mail.com info@exemple.com"
+msgstr ""
+
+#: includes/elementor/widgets/widget-counter.php:14
+#: includes/elementor/widgets/widget-counter.php:30
+#: includes/elementor/widgets/widget-counter.php:64
+msgid "Counter"
+msgstr ""
+
+#: includes/elementor/widgets/widget-counter.php:48
+msgid "Count"
+msgstr ""
+
+#: includes/elementor/widgets/widget-faq-area.php:14
+#: includes/elementor/widgets/widget-faq-area.php:30
+msgid "FAQ Area"
+msgstr ""
+
+#: includes/elementor/widgets/widget-faq-area.php:49
+#: includes/elementor/widgets/widget-service-area.php:49
+msgid ""
+"Express delivery is an innovative service is effective logistics solution "
+"for the delivery of small cargo. This service is useful for companies "
+"various."
+msgstr ""
+
+#: includes/elementor/widgets/widget-international-services.php:14
+msgid "International Services"
+msgstr ""
+
+#: includes/elementor/widgets/widget-international-services.php:30
+#: includes/elementor/widgets/widget-service-area.php:30
+msgid "Service"
+msgstr ""
+
+#: includes/elementor/widgets/widget-international-services.php:40
+msgid "International Cargo"
+msgstr ""
+
+#: includes/elementor/widgets/widget-international-services.php:47
+#: includes/elementor/widgets/widget-service-area.php:71
+msgid "Mini title"
+msgstr ""
+
+#: includes/elementor/widgets/widget-international-services.php:49
+msgid "Express delivery is an innovative service"
+msgstr ""
+
+#: includes/elementor/widgets/widget-international-services.php:58
+msgid ""
+"Express delivery is an innovative service is effective logistics solution "
+"for the delivery of small cargo. This service is useful for companies of "
+"various effective logistics scale."
+msgstr ""
+
+#: includes/elementor/widgets/widget-international-services.php:83
+#: includes/elementor/widgets/widget-service-area.php:89
+msgid "Image"
+msgstr ""
+
+#: includes/elementor/widgets/widget-newsletter.php:13
+#: includes/elementor/widgets/widget-newsletter.php:29
+msgid "Newsletter"
+msgstr ""
+
+#: includes/elementor/widgets/widget-newsletter.php:39
+msgid "Newsletter Sign Up"
+msgstr ""
+
+#: includes/elementor/widgets/widget-newsletter.php:48
+msgid "Notifications our best deals..."
+msgstr ""
+
+#: includes/elementor/widgets/widget-newsletter.php:55
+msgid "shortcode"
+msgstr ""
+
+#: includes/elementor/widgets/widget-partner.php:14
+msgid "Brand logo"
+msgstr ""
+
+#: includes/elementor/widgets/widget-partner.php:30
+msgid "partner"
+msgstr ""
+
+#: includes/elementor/widgets/widget-partner.php:52
+msgid "Partner List"
+msgstr ""
+
+#: includes/elementor/widgets/widget-pricing.php:14
+#: includes/elementor/widgets/widget-pricing.php:30
+msgid "Pricing"
+msgstr ""
+
+#: includes/elementor/widgets/widget-products.php:13
+#: includes/elementor/widgets/widget-products.php:28
+msgid "Products"
+msgstr ""
+
+#: includes/elementor/widgets/widget-products.php:36
+msgid "Service Style"
+msgstr ""
+
+#: includes/elementor/widgets/widget-products.php:42
+msgid "Style 3"
+msgstr ""
+
+#: includes/elementor/widgets/widget-products.php:51
+#: includes/elementor/widgets/widget-productthumb.php:36
+msgid "Post per page"
+msgstr ""
+
+#: includes/elementor/widgets/widget-products.php:135
+msgid "Add to cart"
+msgstr ""
+
+#: includes/elementor/widgets/widget-products.php:136
+msgid "Demo"
+msgstr ""
+
+#: includes/elementor/widgets/widget-productthumb.php:13
+msgid "Product Thumbnails"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:14
+#: includes/elementor/widgets/widget-rating-area.php:30
+msgid "ratings"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:40
+msgid "What customers are thinking?"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:51
+msgid "Choose icon"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:62
+msgid "Based on"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:71
+#: includes/elementor/widgets/widget-testimonials.php:134
+msgid "Rating"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:75
+#: includes/elementor/widgets/widget-rating-area.php:92
+#: includes/elementor/widgets/widget-rating-area.php:109
+#: includes/elementor/widgets/widget-testimonials.php:138
+msgid "Star 1"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:76
+#: includes/elementor/widgets/widget-rating-area.php:93
+#: includes/elementor/widgets/widget-rating-area.php:110
+#: includes/elementor/widgets/widget-testimonials.php:139
+msgid "Star 2"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:77
+#: includes/elementor/widgets/widget-rating-area.php:94
+#: includes/elementor/widgets/widget-rating-area.php:111
+#: includes/elementor/widgets/widget-testimonials.php:140
+msgid "Star 3"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:78
+#: includes/elementor/widgets/widget-rating-area.php:95
+#: includes/elementor/widgets/widget-rating-area.php:112
+#: includes/elementor/widgets/widget-testimonials.php:141
+msgid "Star 4"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:79
+#: includes/elementor/widgets/widget-rating-area.php:96
+#: includes/elementor/widgets/widget-rating-area.php:113
+#: includes/elementor/widgets/widget-testimonials.php:142
+msgid "Star 5"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:80
+#: includes/elementor/widgets/widget-rating-area.php:97
+#: includes/elementor/widgets/widget-rating-area.php:114
+#: includes/elementor/widgets/widget-testimonials.php:143
+msgid "None"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:88
+msgid "delivery rating"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:105
+msgid "experience rating"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:122
+msgid "rating List"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:159
+msgid "Overall Rating"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:168
+msgid "based on "
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:168
+msgid " ratings"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:174
+msgid "On Time Delivery"
+msgstr ""
+
+#: includes/elementor/widgets/widget-rating-area.php:184
+msgid "Delivery experience"
+msgstr ""
+
+#: includes/elementor/widgets/widget-service-area.php:14
+msgid "Service Area"
+msgstr ""
+
+#: includes/elementor/widgets/widget-service-area.php:73
+msgid "Delivery Service"
+msgstr ""
+
+#: includes/elementor/widgets/widget-service-area.php:102
+#: includes/elementor/widgets/widget-service-area.php:136
+msgid ""
+"Express delivery is an innovativ service is effective logistics solutio for "
+"delivery of small cargo service."
+msgstr ""
+
+#: includes/elementor/widgets/widget-service-area.php:128
+msgid "Service List"
+msgstr ""
+
+#: includes/elementor/widgets/widget-service-area.php:133
+msgid "Inspiration Service"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:14
+#: includes/elementor/widgets/widget-testimonials.php:30
+msgid "Testimonials"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:52
+msgid "Background"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:63
+#: includes/elementor/widgets/widget-testimonials.php:164
+msgid "Sub title"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:65
+msgid "Happy Customer Quotes"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:75
+msgid "Our Top Reviews"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:88
+msgid "Air Freight"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:106
+msgid "Name"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:108
+msgid "Emaley Mcculloch"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:116
+msgid "Designation"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:118
+msgid "Founder ceo"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:125
+msgid "Testimonial"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:127
+msgid ""
+"“ Express delivery is an innovative service is effective logistics solution "
+"for the delivery of small cargo. This service is useful companied various "
+"effective logistics scala ”"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:151
+msgid "Testimonial List"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:166
+msgid "Clients Trust Us"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:176
+msgid "Cargo Request Quote"
+msgstr ""
+
+#: includes/elementor/widgets/widget-testimonials.php:184
+msgid "Quote shortcode"
+msgstr ""
+
+#: includes/elementor/widgets/widget-title.php:32
+#: includes/elementor/widgets/widget-tracking.php:32
+#: includes/elementor/widgets/widget-video.php:32
+msgid "Featured Tranding of the week"
+msgstr ""
+
+#: includes/elementor/widgets/widget-title.php:42
+msgid "Awesome Customer Service With Our Tools."
+msgstr ""
+
+#: includes/elementor/widgets/widget-title.php:51
+msgid ""
+"Market or marketplace is location where people regularly purchase and "
+"provisins."
+msgstr ""
+
+#: includes/elementor/widgets/widget-title.php:58
+msgid "Alignment"
+msgstr ""
+
+#: includes/elementor/widgets/widget-title.php:82
+msgid "White title"
+msgstr ""
+
+#: includes/elementor/widgets/widget-title.php:84
+msgid "On"
+msgstr ""
+
+#: includes/elementor/widgets/widget-title.php:85
+msgid "Off"
+msgstr ""
+
+#: includes/elementor/widgets/widget-tracking.php:14
+#: includes/elementor/widgets/widget-tracking.php:30
+msgid "Tracking"
+msgstr ""
+
+#: includes/elementor/widgets/widget-video.php:14
+#: includes/elementor/widgets/widget-video.php:30
+msgid "Video"
+msgstr ""
+
+#: includes/elementor/widgets/widget-video.php:41
+msgid "Our Chalanges"
+msgstr ""
+
+#: includes/elementor/widgets/widget-video.php:50
+msgid "<span>never</span> break our promise"
+msgstr ""
+
+#: includes/elementor/widgets/widget-video.php:59
+msgid ""
+"Online marketplace is type of e-commerce site where product or service "
+"information provided by multiple third parties where transactions are "
+"processed operator."
+msgstr ""
+
+#: includes/elementor/widgets/widget-video.php:66
+msgid "Video Background"
+msgstr ""
+
+#: includes/elementor/widgets/widget-video.php:76
+msgid "Video url"
+msgstr ""
+
+#: includes/elementor/widgets/widget-video.php:86
+msgid "more services"
+msgstr ""
+
+#: includes/recent-post.php:14
+msgid "Startesk recent post here"
+msgstr ""
+
+#: includes/recent-post.php:18
+msgid "Recent Post : startesk"
+msgstr ""
+
+#: includes/recent-post.php:38
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/recent-post.php:114
+msgid "No. of Item of posts to show:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Startesk Element"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://ThemeBeyond.com/mega-addons-for-elementor"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeBeyond"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://ThemeBeyond.com"
+msgstr ""
