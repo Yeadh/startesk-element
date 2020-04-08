@@ -66,7 +66,7 @@ class startesk_Widget_Partner extends Widget_Base {
       $settings = $this->get_settings_for_display(); ?>
 
       <!-- brand-area -->
-      <div class="brand-area gray-bg pt-85 pb-85">
+      <div class="brand-area pt-85 pb-85">
           <div class="container">
               <div class="row brand-active">
                <?php foreach (  $settings['partner_list'] as $partner_single ): ?>

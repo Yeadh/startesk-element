@@ -68,7 +68,7 @@ class Startesk_Widget_Newsletter extends Widget_Base {
       $settings = $this->get_settings_for_display(); ?>
 
       <!-- newsletter -->
-      <section class="newsletter-area gray-bg">
+      <section class="newsletter-area">
           <div class="container">
               <div class="row">
                   <div class="col-12">
