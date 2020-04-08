@@ -133,15 +133,15 @@ class startesk_Widget_FAQ extends Widget_Base {
                                       <div class="accordion" id="accordion<?php echo $key ?>">
                                         <?php foreach ($faq_repeat_group as $key => $faq_item): ?>
                                           <div class="card">
-                                              <div class="card-header" id="heading<?php echo $key ?>">
+                                              <div class="card-header" id="heading<?php echo $key.get_the_ID(); ?>">
                                                   <h5 class="mb-0">
-                                                      <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapse<?php echo $key ?>"
-                                                          aria-expanded="true" aria-controls="collapse<?php echo $key ?>">
+                                                      <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapse<?php echo $key.get_the_ID(); ?>"
+                                                          aria-expanded="true" aria-controls="collapse<?php echo $key.get_the_ID(); ?>">
                                                           <?php echo esc_html( $faq_item['faq_title'] ) ?>
                                                       </a>
                                                   </h5>
                                               </div>
-                                              <div id="collapse<?php echo $key ?>" class="collapse" aria-labelledby="heading<?php echo $key ?>" data-parent="#accordion<?php echo $key ?>">
+                                              <div id="collapse<?php echo $key.get_the_ID(); ?>" class="collapse" aria-labelledby="heading<?php echo $key.get_the_ID(); ?>" data-parent="#accordion<?php echo $key.get_the_ID(); ?>">
                                                   <div class="card-body">
                                                       <p><?php echo esc_html( $faq_item['faq_description'] ) ?></p>
                                                   </div>
