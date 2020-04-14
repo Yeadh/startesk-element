@@ -98,7 +98,7 @@ class startesk_Widget_Contact extends Widget_Base {
       ?>
 
       <!-- contact-area -->
-      <section class="contact-area primary-bg pt-70 pb-15">
+      <section class="contact-area pt-70 pb-15">
           <div class="container">
               <div class="row">
                <?php foreach( $settings['contact_list'] as $index => $contact ) { ?>

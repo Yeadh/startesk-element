@@ -155,6 +155,7 @@ class startesk_Widget_ratings extends Widget_Base {
                               <div class="customer-rating-top">
                                   <div class="customer-thumb">
                                       <a href="#"><img src="<?php echo esc_html( $rating_single['image']['url'] ); ?>" alt="img"></a>
+                                      <div class="rating_block">
                                       <div class="rating-info">
                                           <h6><?php esc_html_e( 'Overall Rating', 'startesk' ) ?></h6>
                                           <h3><?php echo esc_html( $rating_single['rating'] ) ?>.0</h3>
@@ -166,6 +167,7 @@ class startesk_Widget_ratings extends Widget_Base {
                                           } ?>
 									  </div>
                                       <span><?php echo esc_html__( 'based on ', 'startesk' ).esc_html( $rating_single['based'] ).esc_html__( ' ratings', 'startesk' ) ?></span>
+                                    </div>
                                   </div>
                               </div>
                               <div class="rating-list">
