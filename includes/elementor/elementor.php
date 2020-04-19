@@ -46,8 +46,10 @@ class startesk_ElementorCustomElement {
  
     // We check if the Elementor plugin has been installed / activated.
     if(defined('ELEMENTOR_PATH') && class_exists('Elementor\Widget_Base')){
+         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-about.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-banner.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-banner-2.php');
+         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-banner-3.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-title.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-accordion.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-contact.php');
