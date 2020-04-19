@@ -3,15 +3,15 @@ namespace Elementor;
  
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-// about
-class Startesk_Widget_About extends Widget_Base {
+// Gallery
+class Startesk_Widget_Gallery extends Widget_Base {
  
    public function get_name() {
-      return 'about';
+      return 'gallery';
    }
  
    public function get_title() {
-      return esc_html__( 'About area', 'startesk' );
+      return esc_html__( 'Gallery area', 'startesk' );
    }
  
    public function get_icon() { 
@@ -25,16 +25,16 @@ class Startesk_Widget_About extends Widget_Base {
    protected function _register_controls() {
 
       $this->start_controls_section(
-         'about_section',
+         'gallery_section',
          [
-            'label' => esc_html__( 'About', 'startesk' ),
+            'label' => esc_html__( 'Gallery', 'startesk' ),
             'type' => Controls_Manager::SECTION,
          ]
       );
 
-      $about = new \Elementor\Repeater();
+      $gallery = new \Elementor\Repeater();
 
-      $about->add_control(
+      $gallery->add_control(
          'image',
          [
             'label' => __( 'Choose Photo', 'startesk' ),
@@ -45,7 +45,7 @@ class Startesk_Widget_About extends Widget_Base {
          ]
       );
 
-      $about->add_control(
+      $gallery->add_control(
          'title',
          [
             'label' => __( 'Title', 'startesk' ),
@@ -54,7 +54,7 @@ class Startesk_Widget_About extends Widget_Base {
          ]
       );
 
-      $about->add_control(
+      $gallery->add_control(
          'subtitle',
          [
             'label' => __( 'Sub Title', 'startesk' ),
@@ -63,7 +63,7 @@ class Startesk_Widget_About extends Widget_Base {
          ]
       );
 
-      $about->add_control(
+      $gallery->add_control(
          'text',
          [
             'label' => __( 'Text', 'startesk' ),
@@ -72,7 +72,7 @@ class Startesk_Widget_About extends Widget_Base {
          ]
       );
 
-      $about->add_control(
+      $gallery->add_control(
          'button',
          [
             'label' => __( 'Button', 'startesk' ),
@@ -81,7 +81,7 @@ class Startesk_Widget_About extends Widget_Base {
          ]
       );
 
-      $about->add_control(
+      $gallery->add_control(
          'url',
          [
             'label' => __( 'URL', 'startesk' ),
@@ -91,11 +91,11 @@ class Startesk_Widget_About extends Widget_Base {
       );
 
       $this->add_control(
-         'about_list',
+         'gallery_list',
          [
-            'label' => __( 'About Items', 'startesk' ),
+            'label' => __( 'Gallery Items', 'startesk' ),
             'type' => \Elementor\Controls_Manager::REPEATER,
-            'fields' => $about->get_controls(),
+            'fields' => $gallery->get_controls(),
             'title_field' => '{{title}}'
          ]
       );
@@ -109,28 +109,28 @@ class Startesk_Widget_About extends Widget_Base {
     // get our input from the widget settings.       
     $settings = $this->get_settings_for_display(); ?>
 
-    <!-- about-area -->
-    <section class="about-area about-bg">
+    <!-- Gallery-area -->
+    <section class="Gallery-area Gallery-bg">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="about-active">
-                      <?php foreach (  $settings['about_list'] as $key => $about ): ?>
-                        <div class="single-about-wrap">
+                    <div class="Gallery-active">
+                      <?php foreach (  $settings['gallery_list'] as $key => $Gallery ): ?>
+                        <div class="single-Gallery-wrap">
                             <div class="row align-items-center">
                                 <div class="col-lg-6">
-                                    <div class="about-img">
-                                        <img src="<?php echo esc_html( $about['image']['url'] ) ?>" alt="img">
+                                    <div class="Gallery-img">
+                                        <img src="<?php echo esc_html( $Gallery['image']['url'] ) ?>" alt="img">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="about-content">
-                                        <div class="section-title about-title mb-25">
-                                            <h2><?php echo esc_html( $about['title'] ) ?></h2>
-                                            <h6><?php echo esc_html( $about['subtitle'] ) ?></h6>
+                                    <div class="Gallery-content">
+                                        <div class="section-title Gallery-title mb-25">
+                                            <h2><?php echo esc_html( $Gallery['title'] ) ?></h2>
+                                            <h6><?php echo esc_html( $Gallery['subtitle'] ) ?></h6>
                                         </div>
-                                        <p><?php echo esc_html( $about['text'] ) ?></p>
-                                        <a href="<?php echo esc_url( $about['url'] ) ?>" class="btn"><?php echo esc_html( $about['button'] ) ?></a>
+                                        <p><?php echo esc_html( $Gallery['text'] ) ?></p>
+                                        <a href="<?php echo esc_url( $Gallery['url'] ) ?>" class="btn"><?php echo esc_html( $Gallery['button'] ) ?></a>
                                     </div>
                                 </div>
                             </div>
@@ -141,10 +141,10 @@ class Startesk_Widget_About extends Widget_Base {
             </div>
         </div>
     </section>
-    <!-- about-area-end -->
+    <!-- Gallery-area-end -->
 
     <?php
    }
 }
 
-Plugin::instance()->widgets_manager->register_widget_type( new Startesk_Widget_About );
+Plugin::instance()->widgets_manager->register_widget_type( new Startesk_Widget_Gallery );

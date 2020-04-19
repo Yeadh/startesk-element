@@ -85,6 +85,7 @@ class Startesk_Widget_banner3 extends Widget_Base {
     <!-- slider-area -->
     <section class="slider-area">
         <div class="slider-active">
+
             <div class="single-slider slider-bg d-flex align-items-center">
                 <div class="slider-overlay-bg"></div>
                 <div class="slider-bg-shape"></div>
@@ -105,6 +106,7 @@ class Startesk_Widget_banner3 extends Widget_Base {
                     </div>
                 </div>
             </div>
+
             <div class="single-slider slider-bg slider-video-overlay d-flex align-items-center youtube-bg" data-property="{videoURL:'enKKcVrPGs0',}">
                 <div class="slider-overlay-bg"></div>
                 <div class="slider-bg-shape"></div>
@@ -125,6 +127,7 @@ class Startesk_Widget_banner3 extends Widget_Base {
                     </div>
                 </div>
             </div>
+            
         </div>
     </section>
     <!-- slider-area-end -->
