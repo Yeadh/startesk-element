@@ -32,6 +32,24 @@ class Startesk_Widget_Gallery extends Widget_Base {
          ]
       );
 
+      $this->add_control(
+         'title',
+         [
+            'label' => __( 'Title', 'startesk' ),
+            'type' => \Elementor\Controls_Manager::TEXT,
+            'default' => __( 'International Cargo Service', 'startesk' )
+         ]
+      );
+
+      $this->add_control(
+         'subtitle',
+         [
+            'label' => __( 'Sub Title', 'startesk' ),
+            'type' => \Elementor\Controls_Manager::TEXT,
+            'default' => __( 'Express delivery is an innovative service', 'startesk' )
+         ]
+      );
+
       $gallery = new \Elementor\Repeater();
 
       $gallery->add_control(
@@ -64,24 +82,6 @@ class Startesk_Widget_Gallery extends Widget_Base {
       );
 
       $gallery->add_control(
-         'text',
-         [
-            'label' => __( 'Text', 'startesk' ),
-            'type' => \Elementor\Controls_Manager::TEXT,
-            'default' => __( 'Express delivery is an innovative service is effective logistics solution for the delivery of small cargo. This service is useful for companies of various effective logistics scale.', 'startesk' )
-         ]
-      );
-
-      $gallery->add_control(
-         'button',
-         [
-            'label' => __( 'Button', 'startesk' ),
-            'type' => \Elementor\Controls_Manager::TEXT,
-            'default' => __( 'comparison', 'startesk' )
-         ]
-      );
-
-      $gallery->add_control(
          'url',
          [
             'label' => __( 'URL', 'startesk' ),
@@ -109,40 +109,44 @@ class Startesk_Widget_Gallery extends Widget_Base {
     // get our input from the widget settings.       
     $settings = $this->get_settings_for_display(); ?>
 
-    <!-- Gallery-area -->
-    <section class="Gallery-area Gallery-bg">
+    <!-- gallery-area -->
+    <section class="gallery-area gallery-bg pt-115 pb-120">
         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-lg-6">
+                   <div class="section-title text-center mb-70">
+                       <h6><?php echo esc_html( $settings['title'] ) ?></h6>
+                       <h2><?php echo esc_html( $settings['subtitle'] ) ?></h2>
+                   </div>
+               </div>
+            </div>
+            <div class="row gallery-active">
+                <?php foreach (  $settings['gallery_list'] as $key => $gallery_item ): ?>
+                <div class="col-lg-8 col-md-12 grid-item grid-sizer">
+                    <div class="single-gallery-img mb-30">
+                        <a href="<?php echo esc_url( $gallery_item['url'] ) ?>"><img src="<?php echo esc_url( $gallery_item['image']['url'] ) ?>" alt="img"></a>
+                        <div class="gallery-overlay">
+                            <h5 class="gallery-overlay-title"><a href="#"><?php echo esc_html( $gallery_item['title'] ) ?></a></h5>
+                            <span><?php echo esc_html( $gallery_item['subtitle'] ) ?></span>
+                        </div>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+            </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="Gallery-active">
-                      <?php foreach (  $settings['gallery_list'] as $key => $Gallery ): ?>
-                        <div class="single-Gallery-wrap">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6">
-                                    <div class="Gallery-img">
-                                        <img src="<?php echo esc_html( $Gallery['image']['url'] ) ?>" alt="img">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="Gallery-content">
-                                        <div class="section-title Gallery-title mb-25">
-                                            <h2><?php echo esc_html( $Gallery['title'] ) ?></h2>
-                                            <h6><?php echo esc_html( $Gallery['subtitle'] ) ?></h6>
-                                        </div>
-                                        <p><?php echo esc_html( $Gallery['text'] ) ?></p>
-                                        <a href="<?php echo esc_url( $Gallery['url'] ) ?>" class="btn"><?php echo esc_html( $Gallery['button'] ) ?></a>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="gallery-btn text-center mt-30">
+                        <a href="#" class="btn">view gallery</a>
+                        <div class="gallery-overlay">
+                            <h5 class="gallery-overlay-title"><a href="#">Cargo Truck</a></h5>
+                            <span>Blanding , Digital</span>
                         </div>
-                      <?php endforeach; ?>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Gallery-area-end -->
-
+    <!-- gallery-area-end -->
     <?php
    }
 }
