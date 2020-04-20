@@ -93,8 +93,7 @@ class startesk_Widget_Factarea extends Widget_Base {
             'label' => __( 'Counter', 'startesk' ),
             'type' => \Elementor\Controls_Manager::REPEATER,
             'fields' => $counter->get_controls(),
-            'title_field' => '{{title}}',
-
+            'title_field' => '{{title}}'
          ]
       );
 
