@@ -55,6 +55,7 @@ class startesk_ElementorCustomElement {
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-contact.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-international-services.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-category-area.php');
+         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-fact-area.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-counter.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-rating-area.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-partner.php');
@@ -64,6 +65,7 @@ class startesk_ElementorCustomElement {
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-service-area.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-testimonials.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-tracking.php');
+         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-gallery.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-blog.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-choose-area.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-video.php');

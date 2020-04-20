@@ -33,20 +33,20 @@ class Startesk_Widget_Gallery extends Widget_Base {
       );
 
       $this->add_control(
-         'title',
-         [
-            'label' => __( 'Title', 'startesk' ),
-            'type' => \Elementor\Controls_Manager::TEXT,
-            'default' => __( 'International Cargo Service', 'startesk' )
-         ]
-      );
-
-      $this->add_control(
          'subtitle',
          [
             'label' => __( 'Sub Title', 'startesk' ),
             'type' => \Elementor\Controls_Manager::TEXT,
-            'default' => __( 'Express delivery is an innovative service', 'startesk' )
+            'default' => __( 'Delivery Anything', 'startesk' )
+         ]
+      );
+
+      $this->add_control(
+         'title',
+         [
+            'label' => __( 'Title', 'startesk' ),
+            'type' => \Elementor\Controls_Manager::TEXT,
+            'default' => __( 'Exclusive Cargo Gallery', 'startesk' )
          ]
       );
 
@@ -100,6 +100,24 @@ class Startesk_Widget_Gallery extends Widget_Base {
          ]
       );
 
+      $this->add_control(
+         'button',
+         [
+            'label' => __( 'Button', 'startesk' ),
+            'type' => \Elementor\Controls_Manager::TEXT,
+            'default' => __( 'view gallery', 'startesk' )
+         ]
+      );
+
+      $this->add_control(
+         'url',
+         [
+            'label' => __( 'URL', 'startesk' ),
+            'type' => \Elementor\Controls_Manager::TEXT,
+            'default' => '#'
+         ]
+      );
+
       $this->end_controls_section();
 
    }
@@ -115,14 +133,14 @@ class Startesk_Widget_Gallery extends Widget_Base {
             <div class="row justify-content-center">
                <div class="col-lg-6">
                    <div class="section-title text-center mb-70">
-                       <h6><?php echo esc_html( $settings['title'] ) ?></h6>
-                       <h2><?php echo esc_html( $settings['subtitle'] ) ?></h2>
+                      <h6><?php echo esc_html( $settings['subtitle'] ) ?></h6>
+                      <h2><?php echo esc_html( $settings['title'] ) ?></h2>
                    </div>
                </div>
             </div>
             <div class="row gallery-active">
                 <?php foreach (  $settings['gallery_list'] as $key => $gallery_item ): ?>
-                <div class="col-lg-8 col-md-12 grid-item grid-sizer">
+                <div class="grid-item grid-sizer">
                     <div class="single-gallery-img mb-30">
                         <a href="<?php echo esc_url( $gallery_item['url'] ) ?>"><img src="<?php echo esc_url( $gallery_item['image']['url'] ) ?>" alt="img"></a>
                         <div class="gallery-overlay">
@@ -136,9 +154,9 @@ class Startesk_Widget_Gallery extends Widget_Base {
             <div class="row">
                 <div class="col-12">
                     <div class="gallery-btn text-center mt-30">
-                        <a href="#" class="btn">view gallery</a>
+                        <a href="<?php echo esc_url( $settings['url'] ) ?>" class="btn"><?php echo esc_html( $settings['button'] ) ?></a>
                         <div class="gallery-overlay">
-                            <h5 class="gallery-overlay-title"><a href="#">Cargo Truck</a></h5>
+                            <h5 class="gallery-overlay-title"><a href="<?php echo esc_url( $settings['url'] ) ?>">Cargo Truck</a></h5>
                             <span>Blanding , Digital</span>
                         </div>
                     </div>
