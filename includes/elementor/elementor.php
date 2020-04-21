@@ -49,6 +49,7 @@ class startesk_ElementorCustomElement {
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-about.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-delivery-service.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-banner.php');
+         include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-control-area.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-banner-2.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-banner-3.php');
          include_once(plugin_dir_path( __FILE__ ).'/widgets/widget-title.php');
