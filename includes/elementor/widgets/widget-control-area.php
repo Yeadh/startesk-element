@@ -7,11 +7,11 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 class startesk_Widget_Controlarea extends Widget_Base {
  
    public function get_name() {
-      return 'fact_area';
+      return 'Controlarea';
    }
  
    public function get_title() {
-      return esc_html__( 'Fact area', 'startesk' );
+      return esc_html__( 'Control area', 'startesk' );
    }
  
    public function get_icon() { 
@@ -25,9 +25,9 @@ class startesk_Widget_Controlarea extends Widget_Base {
    protected function _register_controls() {
 
       $this->start_controls_section(
-         'fact_area_section',
+         'Controlarea_section',
          [
-            'label' => esc_html__( 'Fact area', 'startesk' ),
+            'label' => esc_html__( 'Controlarea', 'startesk' ),
             'type' => Controls_Manager::SECTION,
          ]
       );
