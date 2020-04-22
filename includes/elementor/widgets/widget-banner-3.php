@@ -95,12 +95,6 @@ class Startesk_Widget_banner3 extends Widget_Base {
                             <div class="slider-content text-center">
                                 <h2 data-animation="fadeInUpS" data-delay=".3s"><?php echo esc_html( $settings['title'] ) ?></h2>
                                 <p data-animation="fadeInUpS" data-delay=".6s"><?php echo esc_html( $settings['subtitle'] ) ?></p>
-                                <div class="slider-form" data-animation="fadeInUpS" data-delay=".9s">
-                                    <form action="#">
-                                        <input type="text" placeholder="Tracking id">
-                                        <button class="btn"><?php echo esc_html__( 'Tracking','startesk' ) ?></button>
-                                    </form>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -116,12 +110,6 @@ class Startesk_Widget_banner3 extends Widget_Base {
                             <div class="slider-content text-center">
                                 <h2 data-animation="fadeInUpS" data-delay=".3s"><?php echo esc_html( $settings['title2'] ) ?></h2>
                                 <p data-animation="fadeInUpS" data-delay=".6s"><?php echo esc_html( $settings['subtitle2'] ) ?></p>
-                                <div class="slider-form" data-animation="fadeInUpS" data-delay=".9s">
-                                    <form action="#">
-                                        <input type="text" placeholder="Tracking id">
-                                        <button class="btn"><?php echo esc_html__( 'Tracking','startesk' ) ?></button>
-                                    </form>
-                                </div>
                             </div>
                         </div>
                     </div>
